@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class KantorBackendApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(KantorBackendApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(KantorBackendApplication.class, args);
+    }
 
 }
