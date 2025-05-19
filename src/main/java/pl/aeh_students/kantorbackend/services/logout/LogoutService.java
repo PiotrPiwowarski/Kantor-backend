@@ -15,7 +15,7 @@ import pl.aeh_students.kantorbackend.repositories.TokenRepository;
 @RequiredArgsConstructor
 public class LogoutService implements LogoutHandler {
 
-    private  TokenRepository tokenRepository;
+    private final  TokenRepository tokenRepository;
 
     @Override
     public void logout(HttpServletRequest request, HttpServletResponse response, Authentication authentication) {
